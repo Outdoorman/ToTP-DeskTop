@@ -1,5 +1,7 @@
 # TOTP Desk
 
+[简体中文](README.md) | [English](README_EN.md)
+
 一个面向 Windows 的轻量离线 TOTP 桌面验证器，使用 Rust、Tauri 2 和原生 TypeScript 构建。
 
 ## 功能
@@ -7,6 +9,8 @@
 - 手动添加 Base32 Seed
 - 文本批量导入：Seed、`otpauth://totp`、`otpauth-migration://`
 - 从摄像头、图片或剪贴板截图扫描二维码
+- 截取屏幕或窗口并识别其中的二维码
+- 编辑、删除账号；点击整张账号卡片复制验证码
 - 导入/导出单个账号或完整 JSON 备份
 - SHA-1、SHA-256、SHA-512，支持 6 位或 8 位验证码
 - Windows DPAPI 用户级加密落盘；前端不持久化密钥
@@ -15,7 +19,7 @@
 
 ## Rust 版本
 
-项目通过 `rust-toolchain.toml` 锁定 Rust 1.97.1。不要使用 Ubuntu `apt` 安装的旧版 Cargo；Rust 2024 Edition 至少需要 Cargo 1.85。
+项目通过 `rust-toolchain.toml` 锁定 Rust 1.97.1。不要使用 Ubuntu `apt` 安装的旧版 Cargo，以免新版依赖无法编译。
 
 检查版本：
 
