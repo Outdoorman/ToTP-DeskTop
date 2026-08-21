@@ -4,6 +4,12 @@
 
 一个面向 Windows 的轻量离线 TOTP 桌面验证器，使用 Rust、Tauri 2 和原生 TypeScript 构建。
 
+## 界面预览
+
+<p align="center">
+  <img src="docs/images/totp-desk-main.png" alt="TOTP Desk 主界面" width="518">
+</p>
+
 ## 功能
 
 - 手动添加 Base32 Seed

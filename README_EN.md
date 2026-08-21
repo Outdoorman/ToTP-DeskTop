@@ -4,6 +4,12 @@
 
 TOTP Desk is a lightweight, offline TOTP authenticator for Windows, built with Rust, Tauri 2, and native TypeScript.
 
+## Screenshot
+
+<p align="center">
+  <img src="docs/images/totp-desk-main.png" alt="TOTP Desk main window" width="518">
+</p>
+
 ## Features
 
 - Add Base32 seeds manually
